@@ -36,7 +36,6 @@ export default {
         return response.json();
       })
       .then((jsonData) => {
-        // console.log(jsonData.results);
         this.questions = jsonData.results;
         console.log(this.questions);
       });
